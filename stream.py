@@ -258,3 +258,4 @@ if __name__ == '__main__':
 # If you wish to stream a single newline delimited file, use streamFile()
 # If you wish to stream a CSV file, use streamCSVFile()
 # If you wish to stream any other type of file(JSON, XML, etc.), write an appropriate function to load and stream the file
+
