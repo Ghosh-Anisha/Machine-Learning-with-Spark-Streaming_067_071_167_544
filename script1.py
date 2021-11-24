@@ -8,14 +8,18 @@ ssc = StreamingContext(sc, 1)
 
 lines = ssc.socketTextStream('localhost', 6100)
 
+columns=["score","tweet"]
 def temp(rdd):
 	df=spark.read.json(rdd)
 	for row in df.rdd.toLocalIterator():
-		for i in range(1000):
-			print(row[str(i)]['feature0'],row[str(i)]['feature1'])
-	#df.show()
+		conv_df = spark.createDataFrame(row,columns)
+		conv_df.show()
+			
+	
 lines.foreachRDD(lambda rdd : temp(rdd))
+
 
 ssc.start()
 ssc.awaitTermination()
+
 
