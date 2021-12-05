@@ -1,3 +1,4 @@
+
 from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
 from pyspark.sql import SparkSession
@@ -22,8 +23,8 @@ ssc = StreamingContext(sc, 1)
 lines = ssc.socketTextStream('localhost', 6100)
 
 columns=["score","tweet"]
-model = SGDClassifier(alpha=.0001, loss='log', penalty='l2', n_jobs=-1, shuffle=True)
-def preprocessing(df):
+
+def preprocessing(df,count):
 	df_temp=np.array(df.select('tweet').collect())
 	
 	"""
@@ -46,25 +47,29 @@ def preprocessing(df):
 	
 	X_train, X_test, y_train, y_test = train_test_split(X_train_tf, y, test_size=0.33, random_state=42)
 	#df2=model.partial_fit(np.reshape(np.array(df1.select('vector').collect()),(10000,100)),np.reshape(np.array(df1.select('score').collect()),(10000,1)),classes=[0,4])
-
+	if(count==0):
+		model = SGDClassifier(alpha=.0001, loss='log', penalty='l2', n_jobs=-1, shuffle=True)
+	else :
+		model = pickle.load(open('model.pkl','rb'))
 
 	df2=model.partial_fit(X_train,y_train,classes=[0,4])
 	pickle.dump(df2,open('model.pkl','wb'))
-	model = pickle.load(open('model.pkl','rb'))
 	y_pred=df2.predict(X_test)
 	accuracy=sklearn.metrics.accuracy_score(y_test,y_pred)	
 	print(accuracy)
 
 def temp(rdd):
 	df=spark.read.json(rdd)
+	count=0
 	for row in df.rdd.toLocalIterator():
 		conv_df = spark.createDataFrame(row,columns)
 		#conv_df.show()
-		preprocessing(conv_df)
+		preprocessing(conv_df,count)
+		count+=1
+
 			
 lines.foreachRDD(lambda rdd : temp(rdd))
 
 ssc.start()
 ssc.awaitTermination()
-
 
