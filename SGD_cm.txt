@@ -1,0 +1,65 @@
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/pes1ug19cs067/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/pes1ug19cs067/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+--------------------------------
+
+[[3620 1424]
+ [1101 3855]]
+--------------------------------
+
+--------------------------------
+
+[[3704 1478]
+ [1086 3732]]
+--------------------------------
+
+--------------------------------
+
+[[3629 1392]
+ [1064 3915]]
+--------------------------------
+
+--------------------------------
+
+[[3648 1403]
+ [1098 3851]]
+--------------------------------
+
+--------------------------------
+
+[[3547 1447]
+ [1124 3882]]
+--------------------------------
+
+--------------------------------
+
+[[3581 1389]
+ [1105 3925]]
+--------------------------------
+
+--------------------------------
+
+[[3652 1351]
+ [1092 3905]]
+--------------------------------
+
+--------------------------------
+
+[[3578 1352]
+ [1197 3873]]
+--------------------------------
+
+Traceback (most recent call last):
+  File "/home/pes1ug19cs067/bd_project/testfile.py", line 76, in <module>
+    ssc.awaitTermination()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/streaming/context.py", line 199, in awaitTermination
+  File "/opt/spark/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1303, in __call__
+  File "/opt/spark/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1033, in send_command
+  File "/opt/spark/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1200, in send_command
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 285, in signal_handler
+KeyboardInterrupt
