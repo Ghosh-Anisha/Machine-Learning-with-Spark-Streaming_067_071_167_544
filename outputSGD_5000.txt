@@ -1,0 +1,419 @@
+[nltk_data] Downloading package stopwords to
+[nltk_data]     /home/pes1ug19cs071/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to
+[nltk_data]     /home/pes1ug19cs071/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+[nltk_data] Downloading package punkt to
+[nltk_data]     /home/pes1ug19cs071/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7478787878787879
+0.756578947368421
+0.7133995037220844
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7418181818181818
+0.7538461538461538
+0.7153284671532847
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7715151515151515
+0.7683823529411765
+0.7693251533742331
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7575757575757576
+0.7697201017811705
+0.7342233009708737
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7503030303030302
+0.767175572519084
+0.7247596153846154
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7321212121212122
+0.74
+0.7167070217917676
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.76
+0.7815344603381015
+0.7249698431845597
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7581818181818182
+0.761118170266836
+0.7395061728395061
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7303030303030303
+0.7515923566878981
+0.7023809523809523
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7412121212121212
+0.7708066581306018
+0.7082352941176471
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7454545454545455
+0.7550200803212851
+0.704119850187266
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7387878787878788
+0.7628865979381443
+0.7056019070321812
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7624242424242424
+0.7560975609756098
+0.7446270543615676
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7381818181818182
+0.7420584498094028
+0.7183271832718328
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7478787878787879
+0.7451487710219923
+0.7245283018867924
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7521212121212121
+0.7721674876847291
+0.736780258519389
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7436363636363637
+0.7554140127388536
+0.7196601941747572
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7327272727272728
+0.7281795511221946
+0.7236679058240396
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7551515151515151
+0.7480916030534351
+0.7405541561712846
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7721212121212121
+0.7823899371069183
+0.7539393939393939
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.756969696969697
+0.7584905660377359
+0.7426108374384236
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7581818181818182
+0.7615658362989324
+0.7642857142857142
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7472727272727273
+0.7565872020075283
+0.7300242130750605
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7515151515151515
+0.7649350649350649
+0.7200488997555012
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.743030303030303
+0.7466007416563659
+0.7339003645200486
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7642424242424243
+0.776829268292683
+0.7556346381969158
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7442424242424243
+0.7580645161290323
+0.7291169451073986
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7527272727272727
+0.7551282051282051
+0.7307692307692307
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7490909090909091
+0.7545454545454545
+0.7208436724565757
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7418181818181818
+0.7446524064171123
+0.7032828282828283
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7696969696969697
+0.7643467643467643
+0.7699876998769988
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7490909090909091
+0.7635220125786164
+0.7286914765906363
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7472727272727273
+0.7532299741602068
+0.7206427688504327
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7472727272727273
+0.759020618556701
+0.7191697191697192
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.743030303030303
+0.7588832487309645
+0.71875
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7551515151515151
+0.7662337662337663
+0.7248157248157249
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7539393939393939
+0.7853403141361257
+0.7125890736342043
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7484848484848485
+0.7714987714987716
+0.7327887981330222
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7490909090909091
+0.7659574468085106
+0.7076167076167076
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7363636363636363
+0.7594278283485045
+0.7002398081534772
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7369696969696969
+0.75
+0.7156626506024096
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7442424242424243
+0.783375314861461
+0.713302752293578
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7436363636363637
+0.7493734335839599
+0.728380024360536
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7539393939393939
+0.7737789203084833
+0.7235576923076923
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7593939393939394
+0.7810578105781057
+0.7435597189695551
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7654545454545455
+0.7806691449814126
+0.75
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7527272727272727
+0.7544303797468355
+0.7358024691358025
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.743030303030303
+0.7468671679197995
+0.7286063569682152
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.769090909090909
+0.7866323907455013
+0.7400241837968561
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7533333333333333
+0.7846534653465347
+0.7312572087658593
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.743030303030303
+0.7420924574209246
+0.7420924574209246
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7424242424242424
+0.7516087516087516
+0.7156862745098039
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7642424242424243
+0.7619047619047619
+0.7628361858190709
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7490909090909091
+0.7744458930899609
+0.7113772455089821
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7424242424242424
+0.7650130548302873
+0.7051744885679904
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7418181818181818
+0.7731829573934837
+0.7157772621809745
+--------------------------------
+
+/home/pes1ug19cs071/.local/lib/python3.8/site-packages/sklearn/utils/validation.py:985: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples, ), for example using ravel().
+  y = column_or_1d(y, warn=True)
+0.7563636363636363
+0.7760814249363868
+0.7296650717703349
+--------------------------------
+
+Traceback (most recent call last):
+  File "/home/pes1ug19cs071/Desktop/proj/SGDtest.py", line 95, in <module>
+    ssc.awaitTermination()
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/streaming/context.py", line 199, in awaitTermination
+  File "/opt/spark/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1303, in __call__
+  File "/opt/spark/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1033, in send_command
+  File "/opt/spark/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1200, in send_command
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 285, in signal_handler
+KeyboardInterrupt
