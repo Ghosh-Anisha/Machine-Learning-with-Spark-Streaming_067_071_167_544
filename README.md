@@ -8,9 +8,9 @@ Models Implemented:
 4. KMC - K-Means Clustering 
 5. MLP - Multilayer Perceptron
 
-The folder are as follows:
+The folderS are as follows:
 1. models: all the model files mentioned above are present here
-2. test: there are 2 test files, one for KMC and the others for all the models
+2. test: there are 2 test files, one for KMC and the other for all the models
 
 Instructions for running and testing models:
 
