@@ -8,6 +8,10 @@ Models Implemented:
 4. KMC - K-Means Clustering 
 5. MLP - Multilayer Perceptron
 
+The folder are as follows:
+1. models: all the model files mentioned above are present here
+2. test: there are 2 test files, one for KMC and the others for all the models
+
 Instructions for running and testing models:
 
 1. Run stream.py and appropriate script file for model to train:
