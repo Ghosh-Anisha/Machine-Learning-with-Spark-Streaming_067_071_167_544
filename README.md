@@ -17,7 +17,7 @@ Instructions for running and testing models:
 
 1. Run stream.py and appropriate script file for model to train:
    <br>
-   python3 stream.py -f sentiment -b <batchsize>
+   python3 stream.py -f sentiment -b batchsize
    <br>
    $SPARK_HOME/bin/spark-submit script.py > out.text 
    <br>
