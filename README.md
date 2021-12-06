@@ -11,6 +11,7 @@ Models Implemented:
 The folders are as follows:
 1. models: all the model files mentioned above are present here
 2. test: there are 2 test files, one for KMC and the other for all the models
+3. plotting: ipynb file for plotting results comparing all models
 
 Instructions for running and testing models:
 
