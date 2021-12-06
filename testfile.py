@@ -11,6 +11,8 @@ from sklearn.linear_model import SGDClassifier
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer, TfidfVectorizer, HashingVectorizer
 from sklearn.model_selection import train_test_split
+from sklearn.metrics import confusion_matrix
+
 import sklearn
 import numpy as np
 import pickle
@@ -29,6 +31,7 @@ ssc = StreamingContext(sc, 1)
 
 lines = ssc.socketTextStream('localhost', 6100)
 columns=["score","tweet"]
+bs=5000
 
 def preprocessing(df):
 	df_temp=np.array(df.select('tweet').collect())
@@ -48,13 +51,19 @@ def preprocessing(df):
 	
 	hashvect=HashingVectorizer(stop_words=stopwords.words('english'))
 	X=hashvect.fit_transform(df_n)
-	y=np.reshape(np.array(df.select('score').collect()),(10000,1))
+	y=np.reshape(np.array(df.select('score').collect()),(bs,1))
 
-	kmeansmod= pickle.load(open('model_SGD.pkl','rb'))
+	kmeansmod= pickle.load(open('SGDmodel_batch2000.pkl','rb'))
 	
 	y_pred=kmeansmod.predict(X)
 	accuracy=sklearn.metrics.accuracy_score(y,y_pred)	
-	print(accuracy)
+	precision=sklearn.metrics.precision_score(y, y_pred, pos_label=0)
+	recall=sklearn.metrics.recall_score(y, y_pred, pos_label=0)
+	cm= confusion_matrix(y, y_pred, labels=[0,4])
+	
+	print("--------------------------------\n")
+	print(accuracy,"\t", precision, "\t", recall, "\t", cm)
+	print("--------------------------------\n")
 
 def temp(rdd):
 	df=spark.read.json(rdd)
