@@ -60,7 +60,7 @@ def preprocessing(df):
 	X=hashvect.fit_transform(df_n)
 	y=np.reshape(np.array(df.select('score').collect()),(10000,1))
 	
-	X_train, X_test, y_train, y_test = train_test_split(X.reshape(10000,-1), y, test_size=0.33, random_state=42)
+	X_train, X_test, y_train, y_test = train_test_split(X.reshape(10000,-1), y.reshape(-1,1), test_size=0.33, random_state=42)
 	
 	try:
 		kmodel= pickle.load(open('model.pkl','rb'))
@@ -68,7 +68,7 @@ def preprocessing(df):
 	except:
 		kmodel = MiniBatchKMeans(n_clusters=2,random_state=0,batch_size=10000)
 	model1=kmodel
-	df2=model1.partial_fit(X_train,y_train,classes=[0,4])
+	df2=model1.partial_fit(X_train,y_train)
 	pickle.dump(df2,open('model.pkl','wb'))
 	y_pred=df2.predict(X_test)
 	accuracy=sklearn.metrics.accuracy_score(y_test,y_pred)	
